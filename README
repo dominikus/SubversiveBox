@@ -1,0 +1,4 @@
+SubversiveBox
+
+Usage:  SubversiveBox.exe <folder to watch> <SVN username>
+        SubversiveBox.exe <folder to watch> <SVN username> <SVN password>
