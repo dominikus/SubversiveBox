@@ -1,4 +1,21 @@
+
 SubversiveBox
 
+SubversiveBox brings all the Dropbox-usability-goodness to plain
+old SVN repositories. Start SubversiveBox on a working copy to let
+it automatically commit changes, new files and folders and deletions
+to your server, so you can focus on working instead of submitting.
+
 Usage:  SubversiveBox.exe <folder to watch> <SVN username>
+
+		or
+		
         SubversiveBox.exe <folder to watch> <SVN username> <SVN password>
+
+Caveats:
+SubversiveBox does not support the renaming of folders at the moment
+(something which you shouldn't do in a working copy anyway). To rename
+a folder, please stop SubversiveBox and use SVN's 'rename' command.
+
+Also, SubversiveBox is very early alpha-software: Use it with caution
+and always make backups of important files.
